@@ -8,14 +8,16 @@ More or less some notes for working with Sonic Pi:
 
 
 ## Notes
+* Get samples from here: https://www.samplephonics.com/
 
 ### Commands
-
 #### `use_bpm 90`
 The song plays with 90 bpm. `sleep 1` means _sleep for one beat_, so sleep for _60.0/90.0 seconds = 0.66666666 seconds_.
 
 #### `sample_duration :loop_amen`
 Returns the seconds the sample needs to be fully played.
+
+#### `rrand(1,2)`
 
 ### Attributes
 
@@ -35,4 +37,24 @@ Defines where the sound is coming from: From the left with `pan: -1`, from the r
 *Used with*: `sample`, `play`
 
 #### `attack`, `decay`, `sustain`, `release`
+* `attack`:
+* `attack_level`:
+* `decay`:
+* `decay_level`:
+* `sustain`:
+* `sustain_level`:
+* `release`:
 *Used with*: `sample`, `play`
+
+#### `rpitch`
+
+#### `lpf`
+
+#### `beat_stretch`
+See https://www.raspberrypi.org/magpi/sonic-pi-coded-beats/
+
+### Effects
+* `:flanger`
+* `:reverb`
+* `:slicer`
+* `:wobble`
