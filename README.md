@@ -46,6 +46,8 @@ Defines where the sound is coming from: From the left with `pan: -1`, from the r
 * `release`:
 *Used with*: `sample`, `play`
 
+#### `cutoff`
+
 #### `rpitch`
 
 #### `lpf`
